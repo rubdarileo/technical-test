@@ -17,5 +17,7 @@
         <div class="font-sans text-gray-900 antialiased">
             {{ $slot }}
         </div>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        @yield('page-script')
     </body>
 </html>
